@@ -15,6 +15,10 @@
 		B41BCBC01DB70FBD00692416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41BCBBE1DB70FBD00692416 /* LaunchScreen.storyboard */; };
 		B41BCBCB1DB70FBD00692416 /* UIBezierPathLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BCBCA1DB70FBD00692416 /* UIBezierPathLayerDemoTests.m */; };
 		B41BCBD61DB70FBD00692416 /* UIBezierPathLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BCBD51DB70FBD00692416 /* UIBezierPathLayerDemoUITests.m */; };
+		B41BCBE81DB712B400692416 /* CustomBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BCBE71DB712B400692416 /* CustomBezierPathView.m */; };
+		B41BCBEC1DB8995000692416 /* BezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BCBEB1DB8995000692416 /* BezierPathViewController.m */; };
+		B41BCBEF1DB89A9800692416 /* CAShapeLayerCombinationUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BCBEE1DB89A9800692416 /* CAShapeLayerCombinationUIBezierPathViewController.m */; };
+		B45BD3EC1DBF68A700927C6D /* ShopCartAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B45BD3EB1DBF68A700927C6D /* ShopCartAnimationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		B41BCBD11DB70FBD00692416 /* UIBezierPathLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBezierPathLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41BCBD51DB70FBD00692416 /* UIBezierPathLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathLayerDemoUITests.m; sourceTree = "<group>"; };
 		B41BCBD71DB70FBD00692416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41BCBE61DB712B400692416 /* CustomBezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBezierPathView.h; sourceTree = "<group>"; };
+		B41BCBE71DB712B400692416 /* CustomBezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBezierPathView.m; sourceTree = "<group>"; };
+		B41BCBE91DB7131700692416 /* EnumType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumType.h; sourceTree = "<group>"; };
+		B41BCBEA1DB8995000692416 /* BezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathViewController.h; sourceTree = "<group>"; };
+		B41BCBEB1DB8995000692416 /* BezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathViewController.m; sourceTree = "<group>"; };
+		B41BCBED1DB89A9800692416 /* CAShapeLayerCombinationUIBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerCombinationUIBezierPathViewController.h; sourceTree = "<group>"; };
+		B41BCBEE1DB89A9800692416 /* CAShapeLayerCombinationUIBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerCombinationUIBezierPathViewController.m; sourceTree = "<group>"; };
+		B45BD3EA1DBF68A700927C6D /* ShopCartAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCartAnimationManager.h; sourceTree = "<group>"; };
+		B45BD3EB1DBF68A700927C6D /* ShopCartAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCartAnimationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +118,15 @@
 				B41BCBB41DB70FBD00692416 /* AppDelegate.m */,
 				B41BCBB61DB70FBD00692416 /* ViewController.h */,
 				B41BCBB71DB70FBD00692416 /* ViewController.m */,
+				B41BCBEA1DB8995000692416 /* BezierPathViewController.h */,
+				B41BCBEB1DB8995000692416 /* BezierPathViewController.m */,
+				B41BCBED1DB89A9800692416 /* CAShapeLayerCombinationUIBezierPathViewController.h */,
+				B41BCBEE1DB89A9800692416 /* CAShapeLayerCombinationUIBezierPathViewController.m */,
+				B41BCBE61DB712B400692416 /* CustomBezierPathView.h */,
+				B41BCBE71DB712B400692416 /* CustomBezierPathView.m */,
+				B45BD3EA1DBF68A700927C6D /* ShopCartAnimationManager.h */,
+				B45BD3EB1DBF68A700927C6D /* ShopCartAnimationManager.m */,
+				B41BCBE91DB7131700692416 /* EnumType.h */,
 				B41BCBB91DB70FBD00692416 /* Main.storyboard */,
 				B41BCBBC1DB70FBD00692416 /* Assets.xcassets */,
 				B41BCBBE1DB70FBD00692416 /* LaunchScreen.storyboard */,
@@ -207,6 +229,7 @@
 				TargetAttributes = {
 					B41BCBAC1DB70FBC00692416 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L7L8VJ3NEY;
 						ProvisioningStyle = Automatic;
 					};
 					B41BCBC51DB70FBD00692416 = {
@@ -273,7 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41BCBEC1DB8995000692416 /* BezierPathViewController.m in Sources */,
 				B41BCBB81DB70FBD00692416 /* ViewController.m in Sources */,
+				B45BD3EC1DBF68A700927C6D /* ShopCartAnimationManager.m in Sources */,
+				B41BCBEF1DB89A9800692416 /* CAShapeLayerCombinationUIBezierPathViewController.m in Sources */,
+				B41BCBE81DB712B400692416 /* CustomBezierPathView.m in Sources */,
 				B41BCBB51DB70FBD00692416 /* AppDelegate.m in Sources */,
 				B41BCBB21DB70FBC00692416 /* main.m in Sources */,
 			);
@@ -424,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L7L8VJ3NEY;
 				INFOPLIST_FILE = UIBezierPathLayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reborn.UIBezierPathLayerDemo;
@@ -435,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L7L8VJ3NEY;
 				INFOPLIST_FILE = UIBezierPathLayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reborn.UIBezierPathLayerDemo;
@@ -507,6 +536,7 @@
 				B41BCBDC1DB70FBD00692416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B41BCBDD1DB70FBD00692416 /* Build configuration list for PBXNativeTarget "UIBezierPathLayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +545,7 @@
 				B41BCBDF1DB70FBD00692416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B41BCBE01DB70FBD00692416 /* Build configuration list for PBXNativeTarget "UIBezierPathLayerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +554,7 @@
 				B41BCBE21DB70FBD00692416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

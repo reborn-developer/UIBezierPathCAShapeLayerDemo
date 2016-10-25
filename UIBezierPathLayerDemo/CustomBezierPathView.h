@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CustomBezierPathView.h
 //  UIBezierPathLayerDemo
 //
 //  Created by reborn on 16/10/19.
@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EnumType.h"
+@interface CustomBezierPathView : UIView
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, assign) BezierPathType type;
 
 @end
-
