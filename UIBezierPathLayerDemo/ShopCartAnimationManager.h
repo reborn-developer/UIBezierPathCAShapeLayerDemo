@@ -2,7 +2,7 @@
 //  ShopCartAnimationManager.h
 //  AnimationTest
 //
-//  Created by reborn on .
+//  Created by reborn on 
 //  Copyright © 2015年 reborn. All rights reserved.
 //
 

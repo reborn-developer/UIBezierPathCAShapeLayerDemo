@@ -2,7 +2,7 @@
 //  EnumType.h
 //  UIBezierPathLayerDemo
 //
-//  Created by reborn on 16/10/19.
+//  Created by reborn on
 //  Copyright © 2016年 reborn. All rights reserved.
 //
 

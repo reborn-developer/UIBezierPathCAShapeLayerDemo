@@ -123,8 +123,7 @@
     [layer addAnimation:groups forKey:@"group"];
 }
 
-#pragma mark
-#pragma mark CAAnimationDelegate
+#pragma mark - CAAnimationDelegate
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
 {
     if (anim == [layer animationForKey:@"group"])
@@ -133,6 +132,5 @@
         layer.hidden = YES;
     }
 }
-
 
 @end
